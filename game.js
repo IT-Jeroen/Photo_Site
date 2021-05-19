@@ -30,12 +30,6 @@ function startGame(){
     buttonSequence();
     $("body").off();
   })
-  $("body").click(function(){
-    $(".game-info").text("Level " + level);
-    /*setTimeout(function(){buttonSequence()}, 1500);*/
-    buttonSequence();
-    $("body").off();
-    })
 };
 
 function gameOver(){
