@@ -2,23 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="./styles.css">
+    <title>The Simon Game</title>
   </head>
   <body>
+    <h1 class="game-info">Press A Key to Start</h1>
+    <div class="game-tiles container">
+      <div class="row">
+        <div class="tile" id="green" type="button"></div>
+        <div class="tile"id="red" type="button"></div>
+      </div>
+      <div class="row">
+        <div class="tile" id="yellow" type="button"></div>
+        <div class="tile"id="blue" type="button"></div>
+      </div>
 
-    <div class="container">
-      <h1>Refresh Me</h1>
+
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="dicee.js" charset="utf-8"></script>
-
+    <script src="./game.js" charset="utf-8"></script>
   </body>
-
-  <footer>
-    www 🎲 App Brewery 🎲 com
-  </footer>
 </html>

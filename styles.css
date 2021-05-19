@@ -1,41 +1,45 @@
-.container {
-  width: 70%;
-  margin: auto;
+body {
+  background-color: #1b225b;
   text-align: center;
 }
 
-.dice {
-  text-align: center;
+.game-info{
+  font-family: "Press Start 2P";
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.tile {
+  width: 12rem;
+  height: 12rem;
+  border: 0.6rem solid #000000;
+  border-radius: 3rem;
+  margin: 2rem;
   display: inline-block;
 
 }
 
-body {
-  background-color: #393E46;
+#green {
+  background-color: green;
 }
 
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+#red {
+  background-color: red;
 }
 
-p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+#yellow {
+  background-color: yellow;
 }
 
-img {
-  width: 80%;
+#blue {
+  background-color: blue;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+.btn-shadow{
+  filter: drop-shadow(0.5rem 0.5rem 1rem #000000);
+}
 
+.game-over {
+  background-color: red;
 }
