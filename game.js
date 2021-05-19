@@ -2,7 +2,6 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 var level = 1;
-var clicks = 0;
 
 function buttonSequence(playerChosenColor){
   if (playerChosenColor) {
