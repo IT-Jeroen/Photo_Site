@@ -3,11 +3,12 @@ body {
   text-align: center;
 }
 
-.game-info{
+.game-info, #input-number{
   font-family: "Press Start 2P";
   font-size: 3rem;
   margin: 5%;
   color: #FEF2BF;
+  text-align: center;
 }
 
 .tile {
@@ -17,22 +18,29 @@ body {
   border-radius: 3rem;
   margin: 2rem;
   display: inline-block;
-
 }
 
-#green {
+#input-number {
+  width: 12rem;
+  height: 12rem;
+}
+.orange {
+  background-color: orange;
+}
+
+.green {
   background-color: green;
 }
 
-#red {
+.red {
   background-color: red;
 }
 
-#yellow {
+.yellow {
   background-color: yellow;
 }
 
-#blue {
+.blue {
   background-color: blue;
 }
 

@@ -7,20 +7,10 @@
     <title>The Simon Game</title>
   </head>
   <body>
-    <h1 class="game-info">Press A Key to Start</h1>
+    <h1 class="game-info">PLease Choose a Number of Tiles and Press Enter to Start the Game</h1>
     <div class="game-tiles container">
-      <div class="row">
-        <div class="tile" id="green" type="button"></div>
-        <div class="tile"id="red" type="button"></div>
-      </div>
-      <div class="row">
-        <div class="tile" id="yellow" type="button"></div>
-        <div class="tile"id="blue" type="button"></div>
-      </div>
-
-
+      <div class="input-tile"><input class="tile blue" id="input-number" type="number" min="2" max="" value="4"></div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./game.js" charset="utf-8"></script>
   </body>
